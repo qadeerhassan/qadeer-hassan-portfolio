@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Qadeer | Creative Web Designer & Frontend Developer</title>
+  <!-- Google Fonts: Space Grotesk for Headings, Inter for Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Canvas for interactive background particles -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Ambient glowing background blobs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header Section -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">&lt;</span>AQadeer.dev<span class="logo-accent"> /&gt;</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#hero" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge"><i class="fas fa-circle-notch fa-spin"></i> Available for Internships</span>
+          <h1 class="hero-title">
+            Crafting Digital <br>
+            <span class="text-gradient">Experiences That Matter</span>
+          </h1>
+          <p class="hero-desc">
+            Hi, I'm Abdul Qadeer, a passionate Web Designer & Developer. I build highly responsive, visually stunning websites using HTML, CSS, JavaScript, and custom WordPress solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <div class="visual-card main-card">
+              <div class="card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="card-title">workspace.html</span>
+              </div>
+              <div class="card-body">
+                <pre><code><span class="code-tag">&lt;div</span> <span class="code-attr">class</span>=<span class="code-val">"hero"</span><span class="code-tag">&gt;</span>
+  <span class="code-tag">&lt;h1&gt;</span>Hello World<span class="code-tag">&lt;/h1&gt;</span>
+  <span class="code-tag">&lt;p&gt;</span>I design modern websites.<span class="code-tag">&lt;/p&gt;</span>
+<span class="code-tag">&lt;/div&gt;</span></code></pre>
+              </div>
+            </div>
+            <div class="visual-card sub-card wordpress-card">
+              <i class="fab fa-wordpress wp-icon"></i>
+              <div>
+                <h4>WordPress</h4>
+                <p>Custom Themes & PHP</p>
+              </div>
+            </div>
+            <div class="visual-card sub-card css-card">
+              <i class="fab fa-css3-alt css-icon"></i>
+              <div>
+                <h4>Modern CSS</h4>
+                <p>Flexbox, Grid & Animations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">My Story</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="header-line"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-info-card glass-panel">
+            <div class="profile-avatar">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+            <h3>Abdul Qadeer</h3>
+            <p class="role-title">Frontend Developer & Designer</p>
+            <div class="personal-details">
+              <div class="detail-item">
+                <span class="label">Location:</span>
+                <span class="val">Lahore, Pakistan</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Availability:</span>
+                <span class="val">Immediate / Full-time</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Focus:</span>
+                <span class="val">UI/UX, WordPress, JS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h3>Turning complex design ideas into clean, functional code.</h3>
+            <p>
+              I am a web designer and developer with a solid foundation in core frontend technologies (HTML5, CSS3, JavaScript) and web content management systems like WordPress. I love building interfaces that are not only beautiful but also intuitive, accessible, and fast.
+            </p>
+            <p>
+              My coding journey focuses on mastering the fundamentals. Instead of relying on heavy frameworks, I love building with raw CSS and JS to understand browser performance and styling flexibility. Additionally, my knowledge of PHP helps me customize WordPress templates and write custom theme logics.
+            </p>
+            <p>
+              <strong>Why choose me?</strong> I am a highly motivated self-learner who thrives under mentorship. I adapt quickly, debug methodically, and pay absolute attention to responsive structures and semantic SEO practices.
+            </p>
+            <div class="about-stats">
+              <div class="stat-box">
+                <span class="stat-num">99%</span>
+                <span class="stat-lbl">Responsiveness Focus</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">100%</span>
+                <span class="stat-lbl">Commitment to Learn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">Capabilities</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: HTML & CSS -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap html-css">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5 & CSS3</h3>
+            <p>Semantic HTML5 tags, flexbox/grid layouts, advanced transitions, animations, and custom CSS variables.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 85%;"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+
+          <!-- Skill Card 2: JavaScript -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap javascript">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript (ES6+)</h3>
+            <p>DOM manipulation, event handling, local storage, custom validations, and asynchronous logic.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 70%;"></div>
+            </div>
+            <span class="skill-percent">70%</span>
+          </div>
+
+          <!-- Skill Card 3: WordPress -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap wordpress">
+              <i class="fab fa-wordpress"></i>
+            </div>
+            <h3>WordPress</h3>
+            <p>Theme customization, Gutenberg blocks, elementor configurations, plugin setups, and widget developments.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 75%;"></div>
+            </div>
+            <span class="skill-percent">75%</span>
+          </div>
+
+          <!-- Skill Card 4: PHP & WordPress Back-End -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap php">
+              <i class="fab fa-php"></i>
+            </div>
+            <h3>PHP & Backend</h3>
+            <p>Basic structure, WP template actions, hooks, filters, custom query creation, and server-side layouts.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 60%;"></div>
+            </div>
+            <span class="skill-percent">60%</span>
+          </div>
+
+          <!-- Skill Card 5: Responsive Design -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap responsive">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Responsive Layouts</h3>
+            <p>Mobile-first UI layouts, container-queries, fluid typography, and cross-browser testing configurations.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 90%;"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+
+          <!-- Skill Card 6: UI Design Concepts -->
+          <div class="skill-card glass-panel">
+            <div class="skill-icon-wrap design">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Figma prototyping, color palettes, modern design patterns, typography rules, and interactive states.</p>
+            <div class="skill-bar-container">
+              <div class="skill-bar-fill" style="width: 80%;"></div>
+            </div>
+            <span class="skill-percent">80%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">Portfolio Showcase</span>
+          <h2 class="section-title">My Projects</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="wordpress">WordPress</button>
+          <button class="filter-btn" data-filter="custom">Custom Web</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: WordPress Custom Site -->
+          <div class="project-card glass-panel" data-category="wordpress">
+            <div class="project-img-placeholder wp-project">
+              <div class="project-icon"><i class="fab fa-wordpress"></i></div>
+            </div>
+            <div class="project-details">
+              <span class="project-cat">WordPress / PHP</span>
+              <h3>Zenith Real Estate Portal</h3>
+              <p>A customized property search website using WordPress Custom Post Types, custom fields, and an optimized, SEO-friendly layout.</p>
+              <div class="project-tags">
+                <span>WordPress</span>
+                <span>PHP</span>
+                <span>Tailored CSS</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 2: Custom Web Landing Page -->
+          <div class="project-card glass-panel" data-category="custom">
+            <div class="project-img-placeholder web-project">
+              <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+            </div>
+            <div class="project-details">
+              <span class="project-cat">Custom Web / UI/UX</span>
+              <h3>Nebula - SaaS Landing Page</h3>
+              <p>A high-performance product landing page with micro-interactions, responsive flexbox layout, custom SVGs, and scroll-triggered animations.</p>
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>Vanilla CSS</span>
+                <span>ES6 JS</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 3: Interactive JS Web Application -->
+          <div class="project-card glass-panel" data-category="custom">
+            <div class="project-img-placeholder js-project">
+              <div class="project-icon"><i class="fab fa-js-square"></i></div>
+            </div>
+            <div class="project-details">
+              <span class="project-cat">JavaScript Application</span>
+              <h3>Aether - Task Dashboard</h3>
+              <p>A modern user dashboard utilizing localStorage, drag-and-drop mechanics, interactive graphs, and advanced CSS glassmorphism styles.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>CSS Grid</span>
+                <span>LocalStorage</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass-panel">
+            <h3>Let's collaborate!</h3>
+            <p>Have an exciting opportunity or want to discuss a website project? Get in touch and let's build something beautiful.</p>
+            
+            <div class="contact-methods">
+              <div class="method-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>qadeer00171@gmail.com</p>
+                </div>
+              </div>
+              <div class="method-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Lahore, Pakistan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-form-panel glass-panel">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="aef6c03f-b694-4b00-8dd5-4b040643a443">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" name="email" required placeholder="john@example.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" required placeholder="Internship Opportunity">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" rows="5" required placeholder="Hi! I would love to talk about..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026. Made with <i class="fas fa-heart text-danger"></i> & HTML/CSS/JS.</p>
+      <div class="footer-meta">
+        <span>Designing the Future, One Pixel at a Time</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Code -->
+  <script src="script.js"></script>
+</body>
+</html>
